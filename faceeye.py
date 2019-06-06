@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 
 cam=cv.VideoCapture(0)
-
+# This cascades are imported from https://github.com/Itseez/opencv/blob/master/data/haarcascades/haarcascade_eye.xml
 detector_face=cv.CascadeClassifier("haar_frontal.xml")
 detector_eye=cv.CascadeClassifier("haarcascade_eye.xml")
 
